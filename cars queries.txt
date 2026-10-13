@@ -1,0 +1,14 @@
+78 ?- can_buy(150000, red).
+With 130000 you can purchase a red chrysler car
+true ;
+With 80000 you can purchase a red datsun car
+true ;
+
+79 ?- can_buy(144000, blue).
+With 80000 you can purchase a blue ford truck
+true.
+
+
+81 ?- can_buy(100000, black).
+With 25000 you can purchase a black toyota truck
+true.
